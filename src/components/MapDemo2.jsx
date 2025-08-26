@@ -22,7 +22,7 @@ export const MapDemo2 = () => {
             name:"janki",
             age:25,
             gender:"female",
-            salary:35000
+            salary:35000 
         },
         {
             id:104,
