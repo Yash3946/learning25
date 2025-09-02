@@ -13,6 +13,10 @@ import { Users } from './components/Users'
 import { UseStateDemo } from './components/UseStateDemo'
 import { UseStateDemo2 } from './components/UseStateDemo2'
 import UseStateDemo3 from './components/UseStateDemo3'
+import { Students } from './components/Students'
+import { StudentList } from './components/StudentList'
+import { Employees } from './components/Employees'
+import { Doctor } from './components/Doctor'
 
 
 function App() {
@@ -24,7 +28,10 @@ function App() {
       {/* <Users apptitle = {title}></Users> */}
     {/* <UseStateDemo></UseStateDemo> */}
     {/* <UseStateDemo2></UseStateDemo2> */}
-    <UseStateDemo3></UseStateDemo3>
+    {/* <UseStateDemo3></UseStateDemo3> */}
+    {/* <Students></Students> */}
+    {/* <Employees></Employees> */}
+    <Doctor></Doctor>
     </div>
   )
 }
