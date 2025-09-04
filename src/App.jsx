@@ -17,21 +17,25 @@ import { Students } from './components/Students'
 import { StudentList } from './components/StudentList'
 import { Employees } from './components/Employees'
 import { Doctor } from './components/Doctor'
+import { Navbar } from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import { NetflixHome } from './components/Netflix/Netflixhome'
+import { NetflixMovies } from './components/Netflix/NetflixMovies'
+import { Erorr404 } from './components/Erorr404'
 
 
 function App() {
 
   var title = "React Js"
   return (
-    <div>
-      <HeaderComponent title = {title}></HeaderComponent>
-      {/* <Users apptitle = {title}></Users> */}
-    {/* <UseStateDemo></UseStateDemo> */}
-    {/* <UseStateDemo2></UseStateDemo2> */}
-    {/* <UseStateDemo3></UseStateDemo3> */}
-    {/* <Students></Students> */}
-    {/* <Employees></Employees> */}
-    <Doctor></Doctor>
+    <div style={{textAlign:'center'}}>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path='/' element ={<Students/>}></Route>
+        <Route path='/netflixhome' element={<NetflixHome/>}></Route>
+        <Route path='/netflixmovies' element={<NetflixMovies/>}></Route>
+        <Route path='/*' element={<Erorr404/>}></Route>
+      </Routes>
     </div>
   )
 }
