@@ -1,0 +1,48 @@
+(1)=>path : index.html -> main.jsx -> app.jsx
+
+(2)=> React js single page application
+
+   =>  if export const --> {import}
+       if export default --> without {}   
+
+   => forEach : void => means no return anything => only use for loop
+   => map     : new array => its return new array all time
+
+(3)=>Component => Component means function or class 
+               => Component has 2 types:   
+                                         (1) Functional Component ->  version -> 16
+                                         (2) Class Component
+               => component name starts with Capitale -> UserDetail      
+
+(4)=> Props =>its transfer data in parent component to child component                                                  
+            => props is read only so child component can not change data in parent component 
+            => mainly use in reusable component 
+            => Props return type is object
+
+(5)=> Dom(Documnet object model) :=> browser Html is convert to tree Structure :
+                                  • <html> = root node
+	                              •	<body> = child of <html>
+	                              •	<h1> ane <p> = child of <body>
+                                
+
+                                => if we change only 1 element in html page then Browser 
+                                   is re-render full page
+
+(6)=> Virtual Dom =>Virtual Dom is copy of original dom 
+                  => if we change only 1 element in html page then Browser 
+                     is not re-render full page but its re-render only 1 element 
+
+(7)=> SetterFunction => React ma setter function ek useState hook dwara male che je state
+                        ne update karva ane UI ne re-render karva mate vapray che
+
+(8)=> Usestate =>  UseState is a hook - > 
+                    Hook = ek special JavaScript function je React ma features 
+                            (state, lifecycle, context, etc.) use karva madad kare che
+                             in functional components.
+                                                                  	
+                 const [stateVariable, setStateFunction] = useState(initialValue);
+                -> stateVariable => current value hold kare 
+                -> setStateFunction => state update karva mate function
+                -> useState(initialValue) => starting value (number, string, array, object, boolean, etc.).
+
+(9)
