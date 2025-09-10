@@ -24,6 +24,8 @@ import { NetflixMovies } from './components/Netflix/NetflixMovies'
 import { Erorr404 } from './components/Erorr404'
 import { WatchContent } from './components/Netflix/WatchContent'
 import { NetflixShows } from './components/Netflix/NetflixShows'
+import { InputHandlinfDemo1 } from './components/InputHandlinfDemo1'
+import { InputHandlingTask1 } from './components/InputHandlingTask1'
 
 
 function App() {
@@ -33,12 +35,14 @@ function App() {
     <div style={{textAlign:'center'}}>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element ={<Students/>}></Route>
+        {/* <Route path='/' element ={<Students/>}></Route>
         <Route path='/netflixhome' element={<NetflixHome/>}></Route>
         <Route path='/netflixmovies' element={<NetflixMovies/>}></Route>
         <Route path='/netflixshows' element = {<NetflixShows/>}></Route>
         <Route path='/watch/:name' element = {<WatchContent/>}></Route>
-        <Route path='/*' element={<Erorr404/>}></Route>
+        <Route path='/*' element={<Erorr404/>}></Route> */}
+        <Route path='/inputhandlerdemo1' element={<InputHandlinfDemo1/>}></Route>
+        <Route path='/inputhadelingtask1' element={<InputHandlingTask1/>}></Route>
       </Routes>
     </div>
   )
