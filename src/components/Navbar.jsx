@@ -29,7 +29,22 @@ export const Navbar = () => {
                <Link class="nav-link" to="netflixshows">
                 Shows
               </Link>
-            </li>         
+            </li>    
+             <li class="nav-item active">
+               <Link class="nav-link" to="formdemo1">
+               formdemo1
+              </Link>    
+              </li> 
+              <li class="nav-item active">
+               <Link class="nav-link" to="formdemo2">
+               FormDemo2
+              </Link>    
+              </li> 
+              <li class="nav-item active">
+               <Link class="nav-link" to="formstudent">
+               FormStudent
+              </Link>    
+              </li> 
           </ul>
         </div>
       </nav>

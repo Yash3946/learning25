@@ -5,15 +5,15 @@ export const InputHandlingTask1 = () => {
     const countries = [
         {
             country: "India",
-            states: ["Maharashtra", "Gujarat", "Karnataka", "Delhi"]
+            states: ["Gujarat", "rajsthan", "Maharashtra", "Delhi","jaipur"]
         },
         {
             country: "USA",
-            states: ["California", "Texas", "Florida", "New York"]
+            states: ["New York", "Alaska", "Colorado", "New Jersey","New Mexico"]
         },
         {
-            country: "Canada",
-            states: ["Ontario", "Quebec", "British Columbia"]
+            country: "Australia",
+            states: ["Victoria", "Queensland", "South Australia", " Western Australia"]
         }
     ]
 

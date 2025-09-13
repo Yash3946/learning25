@@ -65,10 +65,7 @@ export const InputHandlinfDemo1 = () => {
                 <h4>EMAIL:-{email}</h4>
                 <h5>CITY:-{city}</h5>
             </div>
-
         }
-
-        
     </div>
   )
 }
