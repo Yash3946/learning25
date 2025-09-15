@@ -45,6 +45,16 @@ export const Navbar = () => {
                FormStudent
               </Link>    
               </li> 
+              <li class="nav-item active">
+               <Link class="nav-link" to="formemployee">
+               FormEmployee
+              </Link>    
+              </li> 
+              <li class="nav-item active">
+               <Link class="nav-link" to="formproduct">
+               FormProduct
+              </Link>    
+              </li> 
           </ul>
         </div>
       </nav>
