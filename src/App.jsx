@@ -31,6 +31,8 @@ import { FormDemo2 } from './components/forms/FormDemo2'
 import { FormStudent } from './components/forms/FormStudent'
 import { FormEmployee } from './components/forms/FormEmployee'
 import { FormProduct } from './components/forms/FormProduct'
+import { FormDemo3 } from './components/forms/FormDemo3'
+import { FormInfo } from './components/forms/FormInfo'
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
         <Route path='/formstudent' element={<FormStudent/>}></Route>
         <Route path='/formemployee' element={<FormEmployee/>}></Route>
         <Route path='/formproduct' element={<FormProduct/>}></Route>
+        <Route path='/formdemo3' element={<FormDemo3/>}></Route>
+        <Route path='/forminfo' element={<FormInfo/>}></Route>
       </Routes>
     </div>
   )
