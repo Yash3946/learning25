@@ -33,6 +33,10 @@ import { FormEmployee } from './components/forms/FormEmployee'
 import { FormProduct } from './components/forms/FormProduct'
 import { FormDemo3 } from './components/forms/FormDemo3'
 import { FormInfo } from './components/forms/FormInfo'
+import { FormDemo4 } from './components/forms/FormDemo4'
+import { BookList } from './components/BookList'
+import { DynamicForm } from './components/forms/DynamicForm'
+
 
 
 function App() {
@@ -57,6 +61,11 @@ function App() {
         <Route path='/formproduct' element={<FormProduct/>}></Route>
         <Route path='/formdemo3' element={<FormDemo3/>}></Route>
         <Route path='/forminfo' element={<FormInfo/>}></Route>
+        <Route path='/formdemo4' element={<FormDemo4/>}></Route>
+        <Route path='booklist' element={<BookList/>}></Route>
+        <Route path='/dynamicform' element={<DynamicForm/>}></Route>
+
+       
       </Routes>
     </div>
   )

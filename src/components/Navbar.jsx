@@ -65,6 +65,25 @@ export const Navbar = () => {
                FormInfo
               </Link>    
               </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="formdemo4">
+               FormDemo4
+              </Link>    
+              </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="booklist">
+               booklist
+              </Link>    
+              </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="dynamicform">
+               DynamicForm
+              </Link>    
+              </li> 
+              
           </ul>
         </div>
       </nav>
