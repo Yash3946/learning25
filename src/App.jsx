@@ -36,6 +36,11 @@ import { FormInfo } from './components/forms/FormInfo'
 import { FormDemo4 } from './components/forms/FormDemo4'
 import { BookList } from './components/BookList'
 import { DynamicForm } from './components/forms/DynamicForm'
+import { DynamicForm2 } from './components/forms/DynamicForm2'
+import { DynamicForm3 } from './components/forms/DynamicForm3'
+import { Expense } from './components/Expense'
+import { Task } from './components/Task'
+import { UseMemoDemo } from './components/UseMemoDemo'
 
 
 
@@ -64,8 +69,11 @@ function App() {
         <Route path='/formdemo4' element={<FormDemo4/>}></Route>
         <Route path='booklist' element={<BookList/>}></Route>
         <Route path='/dynamicform' element={<DynamicForm/>}></Route>
-
-       
+        <Route path='/dynamicform2' element={<DynamicForm2/>}></Route>
+        <Route path='/dynamicform3' element={<DynamicForm3/>}></Route>
+        <Route path='/expence' element={<Expense/>}></Route>
+        <Route path='/task' element={<Task/>}></Route>
+        <Route path='/usememodemo' element={<UseMemoDemo/>}></Route>
       </Routes>
     </div>
   )
