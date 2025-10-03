@@ -35,11 +35,13 @@ export const Navbar = () => {
                formdemo1
               </Link>     */}
               </li> 
-              <li class="nav-item active">
+              {/* <li class="nav-item active">
                <Link class="nav-link" to="formdemo2">
                FormDemo2
               </Link>    
-              </li> 
+              </li>  */}
+
+
               <li class="nav-item active">
                <Link class="nav-link" to="formstudent">
                FormStudent
@@ -78,7 +80,7 @@ export const Navbar = () => {
               </Link>    
               </li> 
 
-              <li class="nav-item active">
+              {/* <li class="nav-item active">
                <Link class="nav-link" to="dynamicform">
                DynamicForm
               </Link>    
@@ -94,7 +96,7 @@ export const Navbar = () => {
                <Link class="nav-link" to="dynamicform3">
                DynamicForm3
               </Link>    
-              </li> 
+              </li>  */}
 
 
               <li class="nav-item active">
@@ -112,6 +114,24 @@ export const Navbar = () => {
               <li class="nav-item active">
                <Link class="nav-link" to="usememodemo">
                usememodemo
+              </Link>    
+              </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="findbomb">
+               FindBomb
+              </Link>    
+              </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="userefdemo1">
+               userefdemo1
+              </Link>    
+              </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="userefdemo2">
+               userefdemo2
               </Link>    
               </li> 
           </ul>
