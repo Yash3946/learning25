@@ -44,6 +44,9 @@ import { UseMemoDemo } from './components/UseMemoDemo'
 import { FindBomb } from './components/FindBomb'
 import { UseRefDemo1 } from './components/UseRefDemo1'
 import { UseRefDemo2 } from './components/UseRefDemo2'
+import { ApiDemo1 } from './components/API/ApiDemo1'
+import { ApiTask1 } from './components/API/ApiTask1'
+import { ApiTask2 } from './components/API/ApiTask2'
 
 
 
@@ -80,6 +83,9 @@ function App() {
         <Route path='/findbomb' element={<FindBomb/>}></Route>
         <Route path='/userefdemo1' element={<UseRefDemo1/>}></Route>
         <Route path='/userefdemo2' element={<UseRefDemo2/>}></Route>
+        <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
+        <Route path='/apitask1' element={<ApiTask1/>}></Route>
+        <Route path='/apitask2' element={<ApiTask2/>}></Route>
       </Routes>
     </div>
   )
