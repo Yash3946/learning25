@@ -152,6 +152,34 @@ export const Navbar = () => {
                ApiTask2
               </Link>    
               </li> 
+
+              <li class="nav-item active">
+               <Link class="nav-link" to="useeffectdemo">
+                useeffectdemo
+              </Link>
+            </li>   
+
+            <li class="nav-item active">
+               <Link class="nav-link" to="apitask3">
+               apitask3
+              </Link>
+            </li>   
+
+            <li class="nav-item active">
+               <Link class="nav-link" to="apidemo2">
+                apidemo2
+              </Link>
+            </li>   
+            <li class="nav-item active">
+               <Link class="nav-link" to="adduser">
+                add user
+              </Link>
+            </li>   
+            <li class="nav-item active">
+               <Link class="nav-link" to="items">
+                items
+              </Link>
+            </li>   
           </ul>
         </div>
       </nav>

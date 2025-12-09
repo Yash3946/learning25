@@ -47,6 +47,11 @@ import { UseRefDemo2 } from './components/UseRefDemo2'
 import { ApiDemo1 } from './components/API/ApiDemo1'
 import { ApiTask1 } from './components/API/ApiTask1'
 import { ApiTask2 } from './components/API/ApiTask2'
+import { UseEffectDemo } from './components/UseEffectDemo'
+import { ApiDemo2 } from './components/API/ApiDemo2'
+import { AddUser } from './components/API/AddUser'
+import { Items } from './components/Items'
+import { ApiTask3 } from './components/API/ApiTask3'
 
 
 
@@ -86,6 +91,11 @@ function App() {
         <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
         <Route path='/apitask1' element={<ApiTask1/>}></Route>
         <Route path='/apitask2' element={<ApiTask2/>}></Route>
+        <Route path='/useeffectdemo' element={<UseEffectDemo/>}></Route>
+        <Route path='/apidemo2' element={<ApiDemo2/>}></Route>
+        <Route path='/adduser' element={<AddUser/>}></Route>
+        <Route path='/items' element={<Items/>}></Route>
+        <Route path='apitask3' element={<ApiTask3/>}></Route>
       </Routes>
     </div>
   )
